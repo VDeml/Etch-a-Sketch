@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(100, 100, 100);
+    background-color: #2f2f2f;
 }
 
 .wrapper {
@@ -11,16 +11,23 @@ body {
 .container {
     display: flex;
     flex-flow: column wrap;
-    width: 1000px;
-    height: 1000px;
-    border: 3px solid rgb(0, 200, 35);
-    background-color: rgb(255, 255, 255);
+    width: 960px;
+    height: 960px;
+    background-color: rgb(230, 230, 230);  
+    border: 10px solid rgb(131, 131, 131);
+
 }
 
 .container div {
     display: flex;
     flex-flow: row wrap;
-    border: 1px solid rgb(0, 0, 0);
-    background-color: aqua;
-    flex: 1;
+    flex: 1; 
+}
+
+.gridSquare {
+    border: 1px solid #2f2f2f;
+}
+
+.colored {
+    background-color: rgb(0, 0, 0);
 }
